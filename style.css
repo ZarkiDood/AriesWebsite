@@ -1,0 +1,54 @@
+body {
+	margin: 0px;
+	background: url(hotairballoons.png);
+	background-size: cover;
+}
+
+.navbar {
+	background-color: rgb(111, 144, 162);
+	display: flex;
+	justify-content: space-around;
+	border-bottom: rgb(40, 84, 108) solid 4px;
+	margin-bottom: 4px;
+}
+
+.navbar p, .navbar a {
+	font-family: 'Original Surfer';
+	font-size: 20px;
+	color: rgb(3, 36, 54);
+	border-bottom: rgb(40, 84, 108) solid 2px;
+	padding: 2px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.navlink:hover {
+	color: white;
+}
+
+#navigation {
+	border-right: rgb(40, 84, 108) solid 2px;
+	font-style: none;
+}
+
+#current {
+	font-weight: bold;
+}
+
+.content {
+	text-align: center;
+}
+
+img {
+	display: inline-flex;
+	flex-wrap: wrap;
+	height: 256px;
+	border: 2px solid rgb(40, 84, 108);
+	margin: 4px;
+	transition: all 0.5s;
+}
+
+img:hover {
+	transform: scale(1.05);
+}
+
